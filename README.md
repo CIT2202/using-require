@@ -11,24 +11,13 @@ git clone https://github.com/CIT2202/using-require
 
 This will copy the contents of this repository into your codespace.
 
-- Open _connect.php_. Change the connection settings to match your database and environment. This is the line you need to change
-
-```
-    $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
-```
-
-You will need to change it to:
-
-```
-    $conn = new PDO('mysql:host=db;dbname=cht2520', 'root', 'secret');
-```
-
 - Start Apache (`apache2ctl start`)
 
 Now move onto [Completing the practical work](#practical)
 
 ## If you are using XAMPP <a name="xampp"></a>
-
+- Download and unzip the repository. Move it into your htdocs folder.
+  
 Now move onto [Completing the practical work](#practical).
 
 ## Completing the practical work <a name="practical"></a>

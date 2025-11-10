@@ -1,8 +1,39 @@
 # PHP Require (Include)
 
-PHP provides a number of statements that allow us to insert other files in our PHP pages. This provides a simple way to remove duplicate code in our applications.
+## If you are using Codespaces <a name="codespaces"></a>
 
-Download this repository.
+- Open your existing codespace (DON'T CREATE A NEW ONE) [https://github.com/codespaces](https://github.com/codespaces).
+- In the terminal enter
+
+```
+git clone https://github.com/CIT2202/using-require
+```
+
+This will copy the contents of this repository into your codespace.
+
+- Open _connect.php_. Change the connection settings to match your database and environment. This is the line you need to change
+
+```
+    $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
+```
+
+You will need to change it to:
+
+```
+    $conn = new PDO('mysql:host=db;dbname=cht2520', 'root', 'secret');
+```
+
+- Start Apache (`apache2ctl start`)
+
+Now move onto [Completing the practical work](#practical)
+
+## If you are using XAMPP <a name="xampp"></a>
+
+Now move onto [Completing the practical work](#practical).
+
+## Completing the practical work <a name="practical"></a>
+
+PHP provides a number of statements that allow us to insert other files in our PHP pages. This provides a simple way to remove duplicate code in our applications.
 
 - Open _require-demo.php_ in a browser.
 - Look at the source code for both _require-demo.php_ and _message.html_.
@@ -36,6 +67,6 @@ Here are a couple of things about including files:
   - Test this works
 - Modify the other pages in the site to also use `require`.
 - Add another page to the site e.g. a page about the University.
-  - Make sure you build this page by using the require statement
+  - Make sure you build this page by using the `require` statement.
 - Modify the navigation bar so that it also features a link to the University page you have just created. You should find that changing one file updates the entire site.
 - One problem with the above is that every single page has the same page title. How can you modify your site so that each page has a unique title while still using an included header.

@@ -7,7 +7,7 @@
 	
 <body>
 <header>
-<div> All About Huddersfield</div>
+<h1> All About Huddersfield</h1>
 <nav>
     <ul>
         <li><a href="index.php">Home</a></li>

@@ -9,19 +9,6 @@
 git clone https://github.com/CIT2202/using-require
 ```
 
-This will copy the contents of this repository into your codespace.
-
-- Start Apache (`apache2ctl start`)
-
-Now move onto [Completing the practical work](#practical)
-
-## If you are using XAMPP <a name="xampp"></a>
-- Download and unzip the repository. Move it into your htdocs folder.
-  
-Now move onto [Completing the practical work](#practical).
-
-## Completing the practical work <a name="practical"></a>
-
 PHP provides a number of statements that allow us to insert other files in our PHP pages. This provides a simple way to remove duplicate code in our applications.
 
 - Open _require-demo.php_ in a browser.
